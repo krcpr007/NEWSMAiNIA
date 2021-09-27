@@ -1,9 +1,9 @@
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Link,
 } from "react-router-dom";
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 export default class Footer extends Component {
     static propTypes = {
@@ -15,7 +15,7 @@ export default class Footer extends Component {
         return (
             // <!-- Footer -->
             <footer className="page-footer text-light font-small unique-color-dark bg-dark">
-                <div className="footer-curve" style={{ backgroundColor: "#0a192f" }}>
+                <div className="footer-curve bg-light" >
                     <div className="bg-primary py-4 "></div>
                 </div>
                 {/* <!-- Footer Link s --> */}
@@ -70,10 +70,10 @@ export default class Footer extends Component {
                                 <Link to="/business">Business</Link>
                             </p>
                             <p>
-                                <Link to="/!">search</Link>
+                                <Link to="/!">Search</Link>
                             </p>
                             <p>
-                                <Link to="/">search keyword </Link>
+                                <Link to="/">Search keyword </Link>
                             </p>
 
                         </div>
@@ -88,7 +88,7 @@ export default class Footer extends Component {
                             <p>
                                 <i className="fas fa-home mr-3"></i>Rajan Kumar</p>
                             <p>
-                                <i className="fas fa-envelope mr-3"></i>rajankk.ug20.cse@nitp.com</p>
+                                <i className="fas fa-envelope mr-3"></i> rajankk.ug20.cse@nitp.ac.in</p>
                             <p>
                                 <i className="fas fa-phone mr-3"></i>+91 8539863544</p>
                             <p>

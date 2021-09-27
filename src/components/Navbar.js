@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Link
 } from "react-router-dom";
+// import { useState } from 'react';
+
 export class Navbar extends Component {
   static propTypes = {
 
   }
-
+    // const [search, setSearch] ; useState('null');
 
   render() {
     return (
@@ -62,7 +64,7 @@ export class Navbar extends Component {
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form> */}
             <form className='d-flex input-group w-auto'>
-              <input type='search' className='form-control' placeholder='Search News' aria-label='Search' />
+              <input type='search' className='form-control' placeholder='Search News'  aria-label='Search' />
               <button className="btn btn-outline-primary">Search</button>
             </form>
           </div>
