@@ -86,13 +86,13 @@ export default class Footer extends Component {
                             <h6 className="text-uppercase font-weight-bold">Contact</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
-                                <i className="fas fa-home mr-3"></i>Rajan Kumar</p>
+                                <i className="fas fa-home mr-3"></i>Rajan Kumar<br/>Nit Patna</p>
                             <p>
                                 <i className="fas fa-envelope mr-3"></i> rajankk.ug20.cse@nitp.ac.in</p>
                             <p>
                                 <i className="fas fa-phone mr-3"></i>+91 8539863544</p>
-                            <p>
-                                <i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                            {/* <p>
+                                <i className="fas fa-print mr-3"></i> + 01 234 567 89</p> */}
 
                         </div>
                         {/* <!-- Grid column --> */}

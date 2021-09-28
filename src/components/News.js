@@ -6,6 +6,7 @@ export class News extends Component {
         country: "in",
         pageSize: 8,
         category: "general",
+        // search : "bitcoin"
         
     }
     static propTypes = {
@@ -13,6 +14,7 @@ export class News extends Component {
         pageSize: PropTypes.number,
         category: PropTypes.string,
         news_type:PropTypes.string,
+        search:PropTypes.string
     }
     constructor() {
         super();
