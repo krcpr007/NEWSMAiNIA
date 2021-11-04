@@ -40,16 +40,16 @@ export default class Footer extends Component {
                             <h6 className="text-uppercase font-weight-bold">NEWS</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
-                                <Link to="/sports">Sports</Link >
+                                <Link style={{textDecoration:"none"}} to="/sports">Sports</Link >
                             </p>
                             <p>
-                                <Link to="/science">Science</Link >
+                                <Link style={{textDecoration:"none"}} to="/science">Science</Link >
                             </p>
                             <p>
-                                <Link to="/technology">Technology</Link >
+                                <Link style={{textDecoration:"none"}} to="/technology">Technology</Link >
                             </p>
                             <p>
-                                <Link to="/entertainment">Entertainment</Link >
+                                <Link style={{textDecoration:"none"}} to="/entertainment">Entertainment</Link >
                             </p>
 
 
@@ -61,16 +61,16 @@ export default class Footer extends Component {
                             <h6 className="text-uppercase font-weight-bold">Top Headlines</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
-                                <Link to="/health">Covid-19</Link>
+                                <Link style={{textDecoration:"none"}} to="/health">Covid-19</Link>
                             </p>
                             <p>
-                                <Link to="/business">Business</Link>
+                                <Link style={{textDecoration:"none"}} to="/business">Business</Link>
                             </p>
                             <p>
-                                <Link to="/!">Search</Link>
+                                <Link style={{textDecoration:"none"}} to="/!">Search</Link>
                             </p>
                             <p>
-                                <Link to="/">Search keyword </Link>
+                                <Link style={{textDecoration:"none"}} to="/">Search keyword </Link>
                             </p>
 
                         </div>
@@ -81,11 +81,11 @@ export default class Footer extends Component {
                             <h6 className="text-uppercase font-weight-bold">Contact</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
-                                <i className="fas fa-home mr-3"></i>Rajan Kumar<br/>Nit Patna</p>
+                                <i className="fas fa-home mr-3"></i> Rajan Kumar<br/>Nit Patna</p>
                             <p>
                                 <i className="fas fa-envelope mr-3"></i> rajankk.ug20.cse@nitp.ac.in</p>
                             <p>
-                                <i className="fas fa-phone mr-3"></i>+91 8539863544</p>
+                                <i className="fas fa-phone mr-3"></i> +91 8539863544</p>
                             
 
                         </div>
@@ -98,7 +98,7 @@ export default class Footer extends Component {
                 
                 <hr />
                 <div id="links" className="footer-copyright text-center mb-0">© 2021 Copyright:
-                    <a href="https://www.Linkedin.com/in/rajan-kumar-33a3511bb/" title="LinkedIn Profile"> Rajan</a>
+                    <a style={{textDecoration:"none"}} href="https://www.Linkedin.com/in/rajan-kumar-33a3511bb/" target="_blank" rel="noreferrer" title="LinkedIn Profile"> Rajan</a>
 
                 </div>
                 
