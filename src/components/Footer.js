@@ -13,31 +13,30 @@ export default class Footer extends Component {
 
     render() {
         return (
-            // <!-- Footer -->
+            
             <footer className="page-footer text-light font-small unique-color-dark bg-dark">
                 <div className="footer-curve bg-light" >
                     <div className="bg-primary py-4 "></div>
                 </div>
-                {/* <!-- Footer Link s --> */}
+                
                 <div className="container text-center text-md-left ">
 
-                    {/* <!-- Grid row --> */}
+                    
                     <div className="row mt-3">
 
-                        {/* <!-- Grid column --> */}
+                       
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                            {/* <!-- Content --> */}
+                           
                             <h5 className=" font-weight-bold">NEWS MAiNIA</h5>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "100px" }} />
-                            <p>NEWS MAiNIA Best website made by React libariry. Where You can find any time of latest News </p>
+                            <p>NEWS MAiNIA Best website made by React library. Where You can find any time of latest News </p>
 
                         </div>
-                        {/* <!-- Grid column --> */}
-                        {/* <!-- Grid column --> */}
+                        
                         <div id="links" className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                            {/* <!-- Link s --> */}
+                        
                             <h6 className="text-uppercase font-weight-bold">NEWS</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
@@ -55,12 +54,10 @@ export default class Footer extends Component {
 
 
                         </div>
-                        {/* <!-- Grid column --> */}
-
-                        {/* <!-- Grid column --> */}
+                        
                         <div id="links" className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                            {/* <!-- Link s --> */}
+           
                             <h6 className="text-uppercase font-weight-bold">Top Headlines</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
@@ -77,12 +74,10 @@ export default class Footer extends Component {
                             </p>
 
                         </div>
-                        {/* <!-- Grid column --> */}
-
-                        {/* <!-- Grid column --> */}
+                       
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
-                            {/* <!-- Link s --> */}
+                         
                             <h6 className="text-uppercase font-weight-bold">Contact</h6>
                             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
                             <p>
@@ -91,25 +86,22 @@ export default class Footer extends Component {
                                 <i className="fas fa-envelope mr-3"></i> rajankk.ug20.cse@nitp.ac.in</p>
                             <p>
                                 <i className="fas fa-phone mr-3"></i>+91 8539863544</p>
-                            {/* <p>
-                                <i className="fas fa-print mr-3"></i> + 01 234 567 89</p> */}
+                            
 
                         </div>
-                        {/* <!-- Grid column --> */}
+                        
 
                     </div>
-                    {/* <!-- Grid row --> */}
+                    
 
                 </div>
-                {/* <!-- Footer Link s --> */}
-
-                {/* <!-- Copyright --> */}
+                
                 <hr />
                 <div id="links" className="footer-copyright text-center mb-0">© 2021 Copyright:
                     <a href="https://www.Linkedin.com/in/rajan-kumar-33a3511bb/" title="LinkedIn Profile"> Rajan</a>
 
                 </div>
-                {/* <!-- Copyright --> */}
+                
 
             </footer>
         )
