@@ -67,10 +67,10 @@ export default class Footer extends Component {
                                 <Link style={{textDecoration:"none"}} to="/business">Business</Link>
                             </p>
                             <p>
-                                <Link style={{textDecoration:"none"}} to="/!">Search</Link>
+                                <Link style={{textDecoration:"none"}} to="/search">Search</Link>
                             </p>
                             <p>
-                                <Link style={{textDecoration:"none"}} to="/">Search keyword </Link>
+                                <Link style={{textDecoration:"none"}} to="/search">Search keyword </Link>
                             </p>
 
                         </div>
