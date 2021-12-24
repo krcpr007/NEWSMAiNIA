@@ -10,6 +10,7 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
+import Search from './components/Search';
 
 
 export default class App extends Component {
@@ -21,7 +22,7 @@ export default class App extends Component {
                     <Navbar />
                     <Switch>
                         <Route exact path="/"><News key="general" pageSize={8} country="in" category="general" /></Route>
-                        {/* <Route path="/covid-19"><News pageSize={8} country="in" category="covid" /></Route> */}
+                        <Route path="/search"><Search/></Route>
                         <Route exact path="/sports"><News  key="sports" pageSize={8} country="in" category="sports" /></Route>
                         <Route exact path="/business"><News key="business" pageSize={8} country="in" category="business" /></Route>
                         <Route exact path="/entertainment"><News key="entertainment" pageSize={8} country="in" category="entertainment" /></Route>
