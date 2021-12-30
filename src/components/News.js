@@ -26,7 +26,7 @@ export class News extends Component {
         }
     }
     async componentDidMount() {
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_API_KEY}&page=1&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5351d3ed6f0744fcbd8f3d6f9d05078d&page=1&pageSize=${this.props.pageSize}`;
         this.setState({ loading: true })
 
         let data = await fetch(url);
@@ -39,7 +39,7 @@ export class News extends Component {
 
         } else {
 
-            let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_API_KEY}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+            let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5351d3ed6f0744fcbd8f3d6f9d05078d&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
             this.setState({ loading: true })
 
             let data = await fetch(url);
@@ -55,7 +55,7 @@ export class News extends Component {
     }
     handlePrevclick = async () => {
         console.log("prev");
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${process.env.REACT_APP_API_KEY}&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5351d3ed6f0744fcbd8f3d6f9d05078d&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
         this.setState({ loading: true })
 
         let data = await fetch(url);
